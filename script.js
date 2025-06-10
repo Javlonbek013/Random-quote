@@ -21,7 +21,7 @@ async function getRandomQuote() {
     const quote = data[0];
 
     quoteText.textContent = `"${quote.quote}"`;
-    authorText.textContent = `— ${quote.author}`;
+    authorText.textContent = `Author — ${quote.author}`;
   } catch (error) {
     quoteText.textContent = "Xatolik yuz berdi!";
     authorText.textContent = "";
